@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/shopping-app/static/css/main.abc154e2.chunk.css",
+    "main.js": "/shopping-app/static/js/main.f1399e94.chunk.js",
+    "main.js.map": "/shopping-app/static/js/main.f1399e94.chunk.js.map",
+    "runtime-main.js": "/shopping-app/static/js/runtime-main.c91dcbcf.js",
+    "runtime-main.js.map": "/shopping-app/static/js/runtime-main.c91dcbcf.js.map",
+    "static/css/2.55d8add8.chunk.css": "/shopping-app/static/css/2.55d8add8.chunk.css",
+    "static/js/2.ca2626d1.chunk.js": "/shopping-app/static/js/2.ca2626d1.chunk.js",
+    "static/js/2.ca2626d1.chunk.js.map": "/shopping-app/static/js/2.ca2626d1.chunk.js.map",
+    "static/js/3.ab452d22.chunk.js": "/shopping-app/static/js/3.ab452d22.chunk.js",
+    "static/js/3.ab452d22.chunk.js.map": "/shopping-app/static/js/3.ab452d22.chunk.js.map",
+    "index.html": "/shopping-app/index.html",
+    "static/css/2.55d8add8.chunk.css.map": "/shopping-app/static/css/2.55d8add8.chunk.css.map",
+    "static/css/main.abc154e2.chunk.css.map": "/shopping-app/static/css/main.abc154e2.chunk.css.map",
+    "static/js/2.ca2626d1.chunk.js.LICENSE.txt": "/shopping-app/static/js/2.ca2626d1.chunk.js.LICENSE.txt",
+    "static/media/carousol-1.d9be2c7b.jpg": "/shopping-app/static/media/carousol-1.d9be2c7b.jpg",
+    "static/media/carousol-2.bb6be531.jpg": "/shopping-app/static/media/carousol-2.bb6be531.jpg",
+    "static/media/carousol-3.87c71b21.jpg": "/shopping-app/static/media/carousol-3.87c71b21.jpg",
+    "static/media/cart.eca5ee08.png": "/shopping-app/static/media/cart.eca5ee08.png",
+    "static/media/kurta.5168525e.png": "/shopping-app/static/media/kurta.5168525e.png",
+    "static/media/main-logo.a4f9f341.png": "/shopping-app/static/media/main-logo.a4f9f341.png",
+    "static/media/men-heading.5653f94d.jpg": "/shopping-app/static/media/men-heading.5653f94d.jpg",
+    "static/media/tshirt.9bdc5ab3.png": "/shopping-app/static/media/tshirt.9bdc5ab3.png",
+    "static/media/women-heading.427a20e0.jpg": "/shopping-app/static/media/women-heading.427a20e0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c91dcbcf.js",
+    "static/css/2.55d8add8.chunk.css",
+    "static/js/2.ca2626d1.chunk.js",
+    "static/css/main.abc154e2.chunk.css",
+    "static/js/main.f1399e94.chunk.js"
+  ]
+}
