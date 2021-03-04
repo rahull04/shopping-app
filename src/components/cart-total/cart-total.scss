@@ -1,0 +1,58 @@
+.cart-total-cont{
+    padding: 20px;
+    height: 300px;
+    .cart-total-mrp-wrapper,.cart-total-amt-wrapper,.cart-total-dis-wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        color: rgb(100, 96, 96);
+        font-size: 15px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .cart-total-header{
+        padding: 5px;
+        color: rgb(61, 58, 58);
+        font-size: 17px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .cart-total-dis{
+        margin: 0;
+    }
+    .cart-total-disc-txt{
+        padding: 5px;
+        color: rgb(190, 68, 68);
+        font-size: 15px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .cart-place-order{
+        padding-top: 15px;
+        .place-order-btn{
+            padding: 8px;
+            border: none;
+            background-color: rgb(235, 101, 101);
+            color: white;
+            font-weight: bold;
+            &:hover{
+                background-color: rgb(236, 53, 53);
+            }
+        }
+    }
+    .cart-log-out{
+        padding-top: 20px;
+        &-btn{
+            padding: 10px;
+            border: none;
+            background-color: rgb(41, 22, 206);
+            color: white;
+            font-weight: bold;
+            &:hover{
+                background-color: rgb(9, 4, 56);
+            }
+        }
+    }
+}
+
+.dark{
+    font-size: 17px;
+    font-weight: bold;
+}

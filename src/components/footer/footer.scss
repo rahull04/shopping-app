@@ -1,0 +1,87 @@
+@import "~bootstrap/scss/bootstrap";
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.center{
+    text-align: center;
+}
+
+.footer-container{
+    display: flex;
+    padding: 20px;
+    background-color: rgb(212, 212, 228);
+    color: rgb(68, 65, 65);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    .footer-info-container{
+        color: rgb(68, 65, 65);
+        .footer-info-heading{
+            @media (max-width: 767px) {
+                font-size: 22px;
+            }
+        }
+        .footer-content{
+            text-align: left;
+            font-size: 15px;
+            @media (max-width: 767px) {
+                text-align: center;
+                font-size: 12px;
+            }
+        }
+        @media (max-width: 767px) {
+            text-align: center;
+        }
+    }
+
+    .contact-us-container{
+        color: rgb(68, 65, 65);
+        .contact-resp{
+            color: green;
+        }
+        .contact-form{
+            .form-label{
+                margin-top: 15px;
+            }
+            .footer-input-cont{
+                input.contact-email-input , .contact-msg-input{
+                    width: 100%;
+                }
+                @media (min-width: 547px) and (max-width: 991px) {
+                    width: 500px;
+                }
+            }
+            
+            .contact-valid{
+                color: red;
+                font-weight: bold;
+            }
+            .form-btn{
+                display: flex;
+                justify-content: center;
+                .contact-btn{
+                    padding: 8px 12px;
+                    border: none;
+                    background-color: rgb(235, 101, 101);
+                    color: white;
+                    font-weight: bold;
+                    &:hover{
+                        background-color: rgb(233, 55, 55);
+                    }
+                }
+            }
+            @media (min-width: 547px) and (max-width: 991px) {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+}
+
+

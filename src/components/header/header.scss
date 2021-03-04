@@ -1,0 +1,92 @@
+
+body{
+    margin: 0px;
+    border: none;
+    padding: none;
+}
+.bg-white{
+    background-color: white;
+}
+.no-scroll{
+  overflow:hidden;
+}
+
+.overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+
+.header-container{
+  .navbar-nav > .active { 
+    background-color: inherit; 
+  }
+  .navbar-nav {
+    padding-top: 23px;
+    padding-bottom: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    .dropdown-menu {
+      @media (max-width: 1024px) {
+        text-align: center;
+      }  
+    }
+    @media (min-width: 1024px) {
+      height: 80px;
+    }  
+  }
+  .nav-ham .navbar-toggler-icon {
+    height: 1em;
+    width: 1em;
+  }
+  .navbar-nav > a .link:hover{ 
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding-bottom: 9px;
+    border-bottom: 2px solid rgb(235, 101, 101);
+  }
+  .appname{
+    font-family: "Copperplate";
+    font-size: 34px;
+    &:hover{
+      color: rgb(235, 101, 101);
+    }
+  }
+  .link{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+  }
+  .dropdown-btn:hover{
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(235, 101, 101);
+  }
+  
+  .dropdown-item .link:hover{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    
+  }
+  .navbar-light .navbar-nav .nav-link { 
+    @media (max-width: 1024px) {
+      color: rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+  }
+}
+
+
+  
+  
+

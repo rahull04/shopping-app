@@ -1,0 +1,36 @@
+.content{
+    margin-top: 0px;
+    padding: 0px;
+    .car-container{
+        position: relative;
+        .car-label{
+            font-size: 48px;
+            width: auto;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            color: white;
+            font-weight: bold;
+            @media (min-width: 320px) and (max-width: 480px) {
+                font-size: 16px;
+                right: 40px;
+                bottom: 0px;
+            }
+            @media (min-width: 481px) and (max-width: 767px) {
+                font-size: 18px;
+                right: 50px;
+            }
+            @media (min-width: 768px) and (max-width: 1024px) {
+                font-size: 24px;
+                right: 50px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+

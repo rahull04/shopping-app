@@ -1,0 +1,165 @@
+.card-modal-container{
+    display: relative;
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 600px; /* Full width */
+    padding: 10px 20px 60px 20px;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: white;
+    box-shadow:10px 10px 25px grey;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    .close-btn-wrapper{
+        display: flex;
+        justify-content: flex-end;
+        button{
+            padding: 10px 15px 10px 15px;
+            color: rgb(168, 27, 27);
+            font-weight: bold;
+            font-size: 20px;
+            border: none;
+            background-color: inherit;
+        }
+        button:hover{
+            color: rgb(241, 82, 19);
+        }
+    }
+    .card-modal-item{
+        display: flex;
+        justify-content: center;
+        .card-modal-img-cont{
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            .card-modal-img{
+                @media (max-width:628px) {
+                    height:100px;
+                    width: 100px;
+                }
+            }
+        }
+        .card-modal-content{
+            padding: 10px;
+            .card-modal-name{
+                font-weight: bold;
+                font-size: 24px;
+                margin: 0;
+                @media (max-width:628px) {
+                    font-size: 20px;
+                }
+                p.card-modal-cat{
+                    font-weight: normal;
+                    color: rgb(66, 61, 61);
+                    margin: 0;
+                }
+            }
+
+            .card-modal-size-cont{
+                display: flex;
+                padding: 15px 0px;
+                .modal-card-size{
+                    padding: 8px;
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    border: 1px solid rgb(48, 45, 45);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0px 5px;
+                    cursor: pointer;
+                    @media (max-width:628px) {
+                        height:40px;
+                        width: 40px;
+                        font-size: 11px;
+                    }
+                }
+            }
+            .modal-card-price{
+                font-weight: bold;
+                font-size: 28px;
+                display: flex;
+                .og-price-cont{
+                    font-weight: normal;
+                    font-size: 24px;
+                    padding-top: 4px;
+                    padding-left: 5px;
+                    color: rgb(117, 116, 112);
+                    stroke: black;
+                    @media (max-width:628px) {
+                        font-size: 22px;
+                        padding-top: 0;
+                    }
+                }
+                @media (max-width:628px) {
+                    font-size: 22px;
+                }
+            }
+            .card-modal-add{
+                .card-modal-add-btn{
+                    padding: 10px;
+                    border: none;
+                    background-color: rgb(235, 101, 101);
+                    color: white;
+                    font-weight: bold;
+                    &:hover{
+                        background-color: rgb(207, 50, 50);
+                    }
+                }
+            }
+            .card-modal-visit-btn{
+                padding: 10px;
+                border: none;
+                background-color: rgb(235, 101, 101);
+                color: white;
+                font-weight: bold;
+                .link{
+                    color: white;
+                    text-decoration: none;
+                }
+                &:hover{
+                    background-color: rgb(207, 50, 50);
+                }
+            }
+            .add-to-cart-resp{
+                padding-top: 5px;
+                &-txt{
+                    color: green;
+                }
+            }
+        }
+        @media (max-width:628px) {
+            flex-direction: column;
+        }
+    }
+    @media (max-width: 628px) {
+        width:90%;
+        height: 95%;
+    }
+}
+.no-scroll{
+    overflow:hidden;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+.modal-size-active{
+    background-color: rgb(226, 65, 92);
+    color: white;
+    font-weight: bold;
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
